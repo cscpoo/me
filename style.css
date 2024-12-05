@@ -1,0 +1,159 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Fond noir */
+    color: #f1f1f1; /* Texte gris clair */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Gris foncé */
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 15px; /* Bords arrondis pour l'en-tête */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f0c000; /* Jaune */
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0c000; /* Jaune au survol */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 15px; /* Bords arrondis pour toutes les sections */
+}
+
+/* Section Accueil */
+#accueil {
+    background-color: #2a2a2a; /* Gris très foncé */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+#accueil h2 {
+    color: #f0c000;
+}
+
+/* Section Articles */
+#articles {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#articles h2 {
+    color: #f0c000;
+    text-align: center;
+}
+
+article {
+    background-color: #444; /* Gris foncé pour les articles */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 15px; /* Bords arrondis pour les articles */
+}
+
+article h3 {
+    color: #f0c000;
+}
+
+article p {
+    color: #ccc;
+}
+
+article a {
+    color: #f0c000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Formulaire de Contact */
+#contact {
+    background-color: #2a2a2a; /* Gris très foncé */
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #f1f1f1;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 15px; /* Bords arrondis pour les champs de formulaire */
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+form button {
+    background-color: #f0c000; /* Jaune */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px; /* Bords arrondis pour les boutons */
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #d1a300; /* Jaune plus foncé au survol */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px; /* Bords arrondis pour le footer */
+}
+
+footer p {
+    margin: 0;
+}
+
