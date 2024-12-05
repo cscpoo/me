@@ -1,6 +1,68 @@
-<html>
-  <body>
-    <img src="yacine.jpg" width="480" height="720" />
-  </body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cybersécurité</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Blog sur la Cybersécurité</h1>
+        <p>Conseils, actualités et meilleures pratiques pour une navigation en toute sécurité.</p>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue sur le blog !</h2>
+        <p>Sur ce blog, nous explorons divers aspects de la cybersécurité, y compris les menaces actuelles, la protection de la vie privée et des conseils pratiques pour sécuriser vos appareils et données.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Articles récents</h2>
+        <article>
+            <h3>1. Protéger votre mot de passe : Les meilleures pratiques</h3>
+            <p>Les mots de passe sont la première ligne de défense contre les cyberattaques. Découvrez les meilleures pratiques pour créer des mots de passe forts et sécurisés.</p>
+            <a href="#">Lire l'article</a>
+        </article>
+        <article>
+            <h3>2. Sécuriser vos connexions Wi-Fi</h3>
+            <p>Votre connexion Wi-Fi est-elle suffisamment protégée ? Apprenez comment sécuriser votre réseau domestique pour éviter les intrusions.</p>
+            <a href="#">Lire l'article</a>
+        </article>
+        <article>
+            <h3>3. L'importance de la mise à jour régulière de vos logiciels</h3>
+            <p>Les mises à jour logicielles ne sont pas seulement là pour ajouter de nouvelles fonctionnalités, elles sont essentielles pour la sécurité de vos appareils. Découvrez pourquoi il est crucial de maintenir vos logiciels à jour.</p>
+            <a href="#">Lire l'article</a>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter via le formulaire ci-dessous.</p>
+        <form action="https://formspree.io/f/mbljblyg" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blog Cybersécurité - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
 
