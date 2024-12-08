@@ -14,6 +14,11 @@ header {
     text-align: center;
     color: #f1f1f1;
     border-radius: 15px; /* Bords arrondis pour l'en-tête */
+    background-color: #333; /* Fond de l'en-tête */
+    padding: 20px;
+    color: #f1f1f1;
+    border-radius: 15px;
+    text-align: center;
 }
 
 header h1 {
@@ -215,4 +220,18 @@ footer p {
     object-fit: cover; 
     border-radius: 15px; 
     margin-top: 20px; 
+}
+
+/* Container pour le logo et le titre */
+.header-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement le logo et le titre */
+    justify-content: center; /* Aligne horizontalement, au centre */
+}
+
+.logo {
+    width: 50px; /* Taille du logo, ajuster à ta convenance */
+    height: auto; /* Garder les proportions de l'image */
+    margin-right: 15px; /* Espacement entre le logo et le titre */
+    border-radius: 100%; /* Pour des bords arrondis si tu le souhaites */
 }
