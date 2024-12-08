@@ -98,7 +98,7 @@ article p {
 article a {
     color: #f0c000;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: block;
 }
 
 article a:hover {
