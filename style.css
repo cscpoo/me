@@ -233,5 +233,5 @@ footer p {
     width: 50px; /* Taille du logo, ajuster à ta convenance */
     height: auto; /* Garder les proportions de l'image */
     margin-right: 15px; /* Espacement entre le logo et le titre */
-    border-radius: 100%; /* Pour des bords arrondis si tu le souhaites */
+    border-radius: 100%; /* Pour des bords arrondis*/
 }
